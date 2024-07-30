@@ -1,0 +1,19 @@
+
+{
+    "id": "3.129.41.4",
+    "region": "us-east-2",
+    "name": "None",
+    "tags": "[{'Key': 'aws:cloudformation:stack-id', 'Value': 'arn:aws:cloudformation:us-east-2:769004552675:stack/EKS-DEMO-CLUSTER/30073ef0-8934-11ee-ba4e-0a373355b7d1'}, {'Key': 'aws:cloudformation:stack-name', 'Value': 'EKS-DEMO-CLUSTER'}, {'Key': 'aws:cloudformation:logical-id', 'Value': 'NatGatewayEIP1'}]",
+    "eip_association_instance": "None",
+    "eip_allocation_id": "eipalloc-0609bcc8ff465fef9",
+    "eip_association_id": "None",
+    "state": "Disassociated",
+    "cost_saving": "$3.65",
+    "account_id": "769004552675",
+    "current_status": "To Do",
+    "change_request_number": "",
+    "change_request_status": "",
+    "summary": "{'Comment': 'EIP Found in AWS Cloud', 'Datetime': '2024-07-29 16:56:28'}",
+    "last_updated": "2024-07-29 16:56:28"
+  }
+  

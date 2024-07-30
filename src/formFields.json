@@ -1,0 +1,122 @@
+[
+    {
+        "name": "id",
+        "label": "ID",
+        "type": "text",
+        "required": false,
+        "placeholder": "Enter ID",
+        "helperText": "The unique identifier"
+    },
+    {
+        "name": "region",
+        "label": "Region",
+        "type": "text",
+        "required": false,
+        "placeholder": "Enter region",
+        "helperText": "AWS region"
+    },
+    {
+        "name": "name",
+        "label": "Name",
+        "type": "text",
+        "required": false,
+        "placeholder": "Enter name",
+        "helperText": "Name associated with the record"
+    },
+    {
+        "name": "tags",
+        "label": "Tags",
+        "type": "text",
+        "required": false,
+        "placeholder": "Enter tags",
+        "helperText": "Tags in JSON format"
+    },
+    {
+        "name": "eip_association_instance",
+        "label": "EIP Association Instance",
+        "type": "text",
+        "required": false,
+        "placeholder": "Enter EIP association instance",
+        "helperText": "EIP association instance details"
+    },
+    {
+        "name": "eip_allocation_id",
+        "label": "EIP Allocation ID",
+        "type": "text",
+        "required": false,
+        "placeholder": "Enter EIP allocation ID",
+        "helperText": "EIP allocation ID"
+    },
+    {
+        "name": "eip_association_id",
+        "label": "EIP Association ID",
+        "type": "text",
+        "required": false,
+        "placeholder": "Enter EIP association ID",
+        "helperText": "EIP association ID"
+    },
+    {
+        "name": "state",
+        "label": "State",
+        "type": "text",
+        "required": false,
+        "placeholder": "Enter state",
+        "helperText": "State of the resource"
+    },
+    {
+        "name": "cost_saving",
+        "label": "Cost Saving",
+        "type": "text",
+        "required": false,
+        "placeholder": "Enter cost saving",
+        "helperText": "Cost saving details"
+    },
+    {
+        "name": "account_id",
+        "label": "Account ID",
+        "type": "text",
+        "required": true,
+        "placeholder": "Enter account ID",
+        "helperText": "AWS account ID"
+    },
+    {
+        "name": "current_status",
+        "label": "Current Status",
+        "type": "text",
+        "required": false,
+        "placeholder": "Enter current status",
+        "helperText": "Current status of the record"
+    },
+    {
+        "name": "change_request_number",
+        "label": "Change Request Number",
+        "type": "text",
+        "required": false,
+        "placeholder": "Enter change request number",
+        "helperText": "Change request number if any"
+    },
+    {
+        "name": "change_request_status",
+        "label": "Change Request Status",
+        "type": "text",
+        "required": false,
+        "placeholder": "Enter change request status",
+        "helperText": "Change request status"
+    },
+    {
+        "name": "summary",
+        "label": "Summary",
+        "type": "text",
+        "required": false,
+        "placeholder": "Enter summary",
+        "helperText": "Summary of the record"
+    },
+    {
+        "name": "last_updated",
+        "label": "Last Updated",
+        "type": "text",
+        "required": false,
+        "placeholder": "Enter last updated date",
+        "helperText": "Last updated date and time"
+    }
+]
