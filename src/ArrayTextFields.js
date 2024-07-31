@@ -107,7 +107,7 @@ const ArrayTextFields = () => {
                 variant="outlined"
                 disabled={!isEditing && isViewMode} // Disable the field if not editing in view mode
                 value={formData[field.name] || ""}
-                onChange={isEditing ? handleChange : undefined} // Allow changes only if editing
+                onChange={(isEditing || !isViewMode) ? handleChange : undefined} // Allow changes only if editing
                 error={!!formErrors[field.name]} // Show error if field has an error
                 helperText={formErrors[field.name] || ""} // Show error message or default helper text
               />
